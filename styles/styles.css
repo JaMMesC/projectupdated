@@ -1,0 +1,46 @@
+*{margin:0; padding:0;}
+header{
+        color: white;
+   
+    text-align: center;
+}
+header img{
+    float: left;
+    height: 100px
+    
+}
+nav{
+    background-color: yellow;
+    height: 60px;
+    padding: 5px;
+    
+}
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: red;
+    display: inline;
+    padding: 15px;
+    margin: 2px;
+    border: 2px;
+}
+nav ul li:hover{
+    background-color: palevioletred;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+aside ul li{
+    list-style-type: none;
+}
+aside ul li a{
+    color: blue;
+    text-decoration: none;
+}
+main body img {
+    float: none;
+}
